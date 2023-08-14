@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{4D580D77-24DF-4CAE-A2BD-9050F67186BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{77BFE10E-159F-4CB9-95F3-BF56ECC30666}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{B1436AE4-5856-4FBD-A41A-155000E65783}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{4428066B-15E0-4C40-A846-3136F2F24B4F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{C6D46892-B2C2-40EE-8225-B81503DB0BC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{C228745B-7A99-4BC8-9076-5CF446435C81}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HR.LeavenManagement.Domain", "HR.LeavenManagement.Domain\HR.LeavenManagement.Domain.csproj", "{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B1436AE4-5856-4FBD-A41A-155000E65783} = {4D580D77-24DF-4CAE-A2BD-9050F67186BD}
+		{4428066B-15E0-4C40-A846-3136F2F24B4F} = {4D580D77-24DF-4CAE-A2BD-9050F67186BD}
+		{C6D46892-B2C2-40EE-8225-B81503DB0BC3} = {4D580D77-24DF-4CAE-A2BD-9050F67186BD}
+		{C228745B-7A99-4BC8-9076-5CF446435C81} = {4D580D77-24DF-4CAE-A2BD-9050F67186BD}
+		{183106B1-3DFB-41B7-A25A-7A6BFE78FC4C} = {4428066B-15E0-4C40-A846-3136F2F24B4F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78782A30-B55D-413D-8FBF-4A2BB8012640}
+	EndGlobalSection
+EndGlobal
